@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+    <header>
+        <span class="logo">MS</span>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <main>
+    <section id="about" class="glass card">
+      <h1>About Me</h1>
+      <p>
+        I am a passionate software developer based in the Netherlands, deeply intrigued by technology and artificial intelligence.
+        Currently, I dedicate most of my time to learning JavaScript and PHP, while also enhancing my skills in AI and machine learning.
+        This portfolio is a result of a personal project, and I'm continuously working on improving my understanding of these technologies.
+        Outside of coding, I enjoy kickboxing, solving Rubik's cubes, and roller skating.
+      </p>
+    </section>
+
+    <section id="experience" class="glass card">
+      <h2>Experience</h2>
+      <section class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <section>
+            <h3>Software Developer Intern <span>SecureMe2</span></h3>
+            <span class="period">2025 - 2026</span>
+            <p></p>
+          </section>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <section>
+            <h3>Software Developer Intern <span>Intermax</span></h3>
+            <span class="period">2024 - 2025</span>
+            <p>
+              During my internship at Intermax, I worked in the development team on software development and testing.
+              I performed code reviews, researched new technologies, and improved my skills in PHP, JavaScript, and Jira within an agile work environment.
+            </p>
+          </section>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <section>
+            <h3>Crew Member <span>McDonalds</span></h3>
+            <span class="period">2024 - Present</span>
+            <p>
+              In my current position at McDonald's, I work as part of a dynamic team, where I sharpen my ability to perform under pressure and solve problems.
+            </p>
+          </section>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <section>
+            <h3>Sales Associate <span>Albert Heijn</span></h3>
+            <span class="period">2020 - 2021</span>
+            <p>
+              Customer service, inventory management, and product sales.
+            </p>
+          </section>
+        </article>
+      </section>
+    </section>
+
+    <section id="education" class="glass card">
+      <h2>Education</h2>
+      <section class="edu-grid">
+        <article class="edu-card">
+          <span class="timeline-dot"></span>
+          <h3>MBO Software Developer</h3>
+          <span class="school">Techniek College Rotterdam</span>
+          <span class="period">2023 - 2026</span>
+          <span class="status in-progress">In Progress</span>
+        </article>
+        <article class="edu-card">
+          <span class="timeline-dot"></span>
+          <h3>MBO Servicemedewerker</h3>
+          <span class="school">Stichting Albeda</span>
+          <span class="period">2021</span>
+          <span class="status completed">Completed</span>
+        </article>
+        <article class="edu-card">
+          <span class="timeline-dot"></span>
+          <h3>MBO Assistent Verkoop/Retail</h3>
+          <span class="school">Stichting Albeda</span>
+          <span class="period">2020 - 2021</span>
+          <span class="status completed">Completed</span>
+        </article>
+      </section>
+    </section>
+
+    <section id="skills" class="glass card">
+        <h2>Skills</h2>
+        <section class="skills-flex">
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SCSS</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>Vue</li>
+            <li>React</li>
+            <li>WordPress</li>
+            <li>Python</li>
+            <li>Git</li>
+            <li>Tailwind</li>
+            <li>Agile</li>
+            <li>Arduino</li>
+            <li>C#</li>
+
+          </ul>
+        </section>
+      </section> 
+
+    <section id="portfolio" class="glass card">
+      <h2>My Projects</h2>
+      <section class="portfolio-grid">
+        <article class="portfolio-item">
+          <h3>Social Networking Website</h3>
+          <a href="https://github.com/Meryemsavas/social-networking-website" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+        <article class="portfolio-item">
+          <h3>Open Day Information</h3>
+          <a href="https://github.com/Meryemsavas/openday-information-project" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+        <article class="portfolio-item">
+          <h3>My Portfolio Website</h3>
+          <a href="https://github.com/Meryemsavas/my-portfolio-website" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+      </section>
+    </section>
+
+    <section id="contact" class="glass card">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <section class="form-group">
+          <input type="text" id="name" name="name" required placeholder=" " />
+          <label for="name">Name</label>
+        </section>
+        <section class="form-group">
+          <input type="email" id="email" name="email" required placeholder=" " />
+          <label for="email">Email</label>
+        </section>
+        <section class="form-group">
+          <textarea id="message" name="message" required placeholder=" "></textarea>
+          <label for="message">Message</label>
+        </section>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-content">
+      <nav class="social-links">
+        <a href="https://nl.linkedin.com/in/meryemsavas" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Meryemsavas" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+      <p>Thank you for visiting my portfolio!</p>
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </section>
+  </footer>
+</body>
+</html>
